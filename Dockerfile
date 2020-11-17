@@ -13,7 +13,5 @@ ADD elasticsearch.yml /elasticsearch/config/elasticsearch.yml
 
 VOLUME ["/data", "/logs"]
 
-dockerd --userns-remap="elasticsearch:1000"
-
 EXPOSE 9200 9300
 CMD ["elasticsearch/bin/elasticsearch"]
