@@ -2,7 +2,7 @@
 # docker pull barnybug/redis
 #
 # VERSION               0.0.1
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 
 ADD redis-server /usr/bin/
 ADD redis-cli /usr/bin/

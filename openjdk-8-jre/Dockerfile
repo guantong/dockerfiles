@@ -1,6 +1,6 @@
 # Dockerfile for openjdk java 8 JRE
 # docker pull barnybug/openjdk-8-jre
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 
 # enable universe
 RUN sed 's/main$/main universe/' -i /etc/apt/sources.list

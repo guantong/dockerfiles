@@ -1,6 +1,6 @@
 # Dockerfile for oracle java 7
 # docker pull barnybug/oracle-java7
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 
 RUN apt-get install -y python-software-properties
 RUN add-apt-repository ppa:webupd8team/java -y

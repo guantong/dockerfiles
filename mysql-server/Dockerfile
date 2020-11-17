@@ -3,7 +3,7 @@
 # taken from: https://github.com/kstaken/dockerfile-examples/tree/master/mysql-server
 #
 # VERSION               0.0.1
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 
 # install mysql-server
 RUN apt-get install -y mysql-server-core-8.0.22 mysql-client-core-8.0.22 && apt-get clean
