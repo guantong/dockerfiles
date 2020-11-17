@@ -2,6 +2,5 @@
 # Open:
 # http://localhost:9200/_plugin/marvel/
 FROM barnybug/elasticsearch
-MAINTAINER Barnaby Gray <barnaby@pickle.me.uk>
 
-RUN elasticsearch-1.1.0/bin/plugin -i elasticsearch/marvel/latest
+RUN elasticsearch-5.1.1/bin/plugin -i elasticsearch/marvel/latest
