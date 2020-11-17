@@ -6,7 +6,7 @@ ENV ES_VERSION 5.1.1
 
 # download and unpack elasticsearch
 RUN wget -q https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-5.1.1.tar.gz -O - | tar zxvf - && \
-    mv /elasticsearch-$5.1.1ERSION /elasticsearch && \
+    mv /elasticsearch-5.1.1 /elasticsearch && \
     rm /elasticsearch/bin/*.exe
 
 ADD elasticsearch.yml /elasticsearch/config/elasticsearch.yml
