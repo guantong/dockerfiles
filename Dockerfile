@@ -11,7 +11,7 @@ RUN wget -q https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-5
 
 ADD elasticsearch.yml /elasticsearch/config/elasticsearch.yml
 
-VOLUME ["/data", "/logs"]
+VOLUME data01:/usr/share/elasticsearch/data
 
 EXPOSE 9200 9300
 CMD ["elasticsearch/bin/elasticsearch"]
